@@ -3,6 +3,7 @@ import $ from 'jquery';
 import './Invoice.css';
 
 class Invoice extends Component {
+  // Codigo para mostrar un tooltip cuando se haga hover sobre el numero de invoice
   componentDidMount() {
     $('[data-toggle="tooltip"]').tooltip();
   }

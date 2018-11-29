@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
-import Invoice from './componentes/Invoice/Invoice';
-import Text from './componentes/Text/Text';
-import Overview from './componentes/Overview/Overview';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faSearch, faBell, faIndustry, faCheck } from '@fortawesome/free-solid-svg-icons';
 import { faQuestionCircle } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import Invoice from './componentes/Invoice/Invoice';
+import Text from './componentes/Text/Text';
+import Overview from './componentes/Overview/Overview';
 import './App.css';
 
+// Importar iconos de FontAwesome a la libreria de FortAwesome para usarlos como componentes de React
 library.add(faQuestionCircle, faSearch, faBell, faIndustry, faCheck);
 
 class App extends Component {
