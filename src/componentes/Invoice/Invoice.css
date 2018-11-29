@@ -8,3 +8,40 @@
     display: inline-block;
     margin-left: .5rem;
 }
+
+.Invoice .encabezado-carta {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: white !important;
+}
+
+.Invoice .valor {
+    float: right;
+    right: 8px;
+    font-weight: bold;
+}
+
+.Invoice .nuevo-balance {
+    font-size: 1.6rem;
+    color: #FFAC25;
+    font-weight: bold;
+}
+
+.Invoice > .container > .card > .card-body {
+    margin: 0;
+    padding: 0;
+}
+
+.Invoice > .container > .card > .card-body > .card-group > .card {
+    border-top: none;
+    border-bottom: none;
+}
+
+.Invoice > .container > .card > .card-body > .card-group > .card:nth-of-type(1) {
+    border-left: none;
+}
+
+.Invoice > .container > .card > .card-body > .card-group > .card:nth-of-type(3) {
+    border-right: none;
+}
