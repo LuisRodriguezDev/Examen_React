@@ -1,0 +1,51 @@
+.Text {
+    margin-top: 1rem;
+}
+
+.Text .switch {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Text .encabezado {
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.Text .diagrama {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Text .diagrama .icono {
+    border: 1px solid #aaa;
+    padding: 8px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: white;
+    z-index: 10;
+}
+
+.Text .mapa {
+    display: flex;
+    justify-content: center;
+}
+
+.Text .mapa iframe {
+    border: 0;
+}
+
+.Text .linea-horizontal {
+    height: 1px;
+    width: 84%;
+    border-top: 1px solid lightgray;
+    position: absolute;
+    top: 50px;
+    left: 80px;
+}
+
+.Text > .container > .btn-group > .btn-light {
+    border: 1px solid lightgray;
+}
