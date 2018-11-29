@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faSearch, faQuestionCircle, faBell } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './App.css';
+
+library.add(faSearch, faQuestionCircle, faBell);
 
 class App extends Component {
   render() {
@@ -50,13 +55,29 @@ class App extends Component {
               </ul>
               <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                  <a className="nav-link" href="/">Icono</a>
+                  <a className="nav-link" href="/">
+                  <FontAwesomeIcon
+                    icon="search"
+                    size="lg"
+                  />
+                  </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/">Icono</a>
+                  <a className="nav-link" href="/">
+                    <FontAwesomeIcon
+                      icon="question-circle"
+                      size="lg"
+                    />
+                  </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/">Icono</a>
+                  <a className="nav-link" href="/">
+                    <FontAwesomeIcon
+                      icon="bell"
+                      size="lg"
+                      color="#000"
+                    />
+                  </a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="/">Dropdown</a>
