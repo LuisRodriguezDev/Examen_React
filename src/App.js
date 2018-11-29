@@ -3,12 +3,12 @@ import Invoice from './componentes/Invoice/Invoice';
 import Text from './componentes/Text/Text';
 import Overview from './componentes/Overview/Overview';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faSearch, faBell } from '@fortawesome/free-solid-svg-icons';
-import { faQuestionCircle as faQuestionCircleRegular } from '@fortawesome/free-regular-svg-icons';
+import { faSearch, faBell, faIndustry, faCheck } from '@fortawesome/free-solid-svg-icons';
+import { faQuestionCircle } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './App.css';
 
-library.add(faQuestionCircleRegular, faSearch, faBell);
+library.add(faQuestionCircle, faSearch, faBell, faIndustry, faCheck);
 
 class App extends Component {
   render() {
