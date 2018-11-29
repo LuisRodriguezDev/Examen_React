@@ -54,7 +54,7 @@ class App extends Component {
                   <a className="nav-link" href="/">Network</a>
                 </li>
               </ul>
-              <ul className="navbar-nav ml-auto">
+              <ul className="navbar-nav ml-auto grupo-navbar-derecho">
                 <li className="nav-item">
                   <a className="icono" href="/">
                     <FontAwesomeIcon
@@ -84,7 +84,17 @@ class App extends Component {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/">Dropdown</a>
+                <div className="dropdown elemento-dropdown">
+                  <a className="dropdown-toggle" href="/" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span className="icono-dropdown">JS</span>
+                  </a>
+
+                  <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a className="dropdown-item" href="/">Acción</a>
+                    <a className="dropdown-item" href="/">Otra acción</a>
+                    <a className="dropdown-item" href="/">Algo más aqui</a>
+                  </div>
+                </div>
                 </li>
               </ul>
             </div>
