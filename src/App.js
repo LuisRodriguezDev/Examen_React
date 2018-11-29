@@ -93,9 +93,9 @@ class App extends Component {
                   </a>
 
                   <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <a className="dropdown-item" href="/">Acción</a>
-                    <a className="dropdown-item" href="/">Otra acción</a>
-                    <a className="dropdown-item" href="/">Algo más aqui</a>
+                    <a className="dropdown-item" href="/">Dashboard</a>
+                    <a className="dropdown-item" href="/">Network</a>
+                    <a className="dropdown-item" href="/">Billing</a>
                   </div>
                 </div>
                 </li>
