@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import Invoice from './componentes/Invoice/Invoice';
+import Text from './componentes/Text/Text';
+import Overview from './componentes/Overview/Overview';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faSearch, faBell } from '@fortawesome/free-solid-svg-icons';
 import { faQuestionCircle as faQuestionCircleRegular } from '@fortawesome/free-regular-svg-icons';
@@ -100,6 +103,9 @@ class App extends Component {
             </div>
           </div>
         </nav>
+        <Invoice />
+        <Text />
+        <Overview />
       </div>
     );
   }
