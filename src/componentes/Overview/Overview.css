@@ -1,0 +1,41 @@
+.Overview {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.Overview .encabezado-carta {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: white !important;
+}
+
+.Overview .valor {
+    float: right;
+    right: 8px;
+    font-weight: bold;
+}
+
+.Overview .status {
+    color: #00E36A;
+    margin-left: 3px;
+}
+
+/* Codigo para crear las columnas */
+.Overview > .container > .card > .card-body {
+    margin: 0;
+    padding: 0;
+}
+
+.Overview > .container > .card > .card-body > .card-group > .card {
+    border-top: none;
+    border-bottom: none;
+}
+
+.Overview > .container > .card > .card-body > .card-group > .card:nth-of-type(1) {
+    border-left: none;
+}
+
+.Overview > .container > .card > .card-body > .card-group > .card:nth-of-type(3) {
+    border-right: none;
+}
