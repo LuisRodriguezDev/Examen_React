@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faSearch, faQuestionCircle, faBell } from '@fortawesome/free-solid-svg-icons';
+import { faSearch, faBell } from '@fortawesome/free-solid-svg-icons';
+import { faQuestionCircle as faQuestionCircleRegular } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './App.css';
 
-library.add(faSearch, faQuestionCircle, faBell);
+library.add(faQuestionCircleRegular, faSearch, faBell);
 
 class App extends Component {
   render() {
@@ -65,7 +66,7 @@ class App extends Component {
                 <li className="nav-item">
                   <a className="nav-link" href="/">
                     <FontAwesomeIcon
-                      icon="question-circle"
+                      icon={["far", "question-circle"]}
                       size="2x"
                     />
                   </a>
