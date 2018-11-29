@@ -1,10 +1,6 @@
 import React from 'react';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { faCheck } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Overview.css';
-
-library.add(faCheck);
 
 const Overview = () => {
   return (

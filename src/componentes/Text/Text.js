@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { faIndustry } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Text.css';
-
-library.add(faIndustry);
 
 class Text extends Component {
   constructor(props) {
