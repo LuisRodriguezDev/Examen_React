@@ -55,16 +55,16 @@ class App extends Component {
                 </li>
               </ul>
               <ul className="navbar-nav ml-auto">
-              <li className="nav-item">
-                  <a className="nav-link" href="/">
-                  <FontAwesomeIcon
-                    icon="search"
-                    size="2x"
-                  />
+                <li className="nav-item">
+                  <a className="icono" href="/">
+                    <FontAwesomeIcon
+                      icon="search"
+                      size="2x"
+                    />
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/">
+                  <a className="icono" href="/">
                     <FontAwesomeIcon
                       icon={["far", "question-circle"]}
                       size="2x"
@@ -72,7 +72,7 @@ class App extends Component {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/">
+                  <a className="icono" href="/">
                     <FontAwesomeIcon
                       icon="bell"
                       size="2x"
