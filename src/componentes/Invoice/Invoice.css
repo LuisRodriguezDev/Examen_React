@@ -28,6 +28,7 @@
     font-weight: bold;
 }
 
+/* Codigo para crear las columnas */
 .Invoice > .container > .card > .card-body {
     margin: 0;
     padding: 0;
