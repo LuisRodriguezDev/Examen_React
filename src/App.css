@@ -1,3 +1,21 @@
 .navbar > .container > .collapse > .navbar-nav > .nav-item > .billing:hover {
     color: #00ACDE;
 }
+
+.notificaciones {
+    background-color: red;
+    border: 2px solid white;
+    border-radius: 50%;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    position: relative;
+    top: -16px;
+    left: -12px;
+    padding: 3px;
+    height: 23px;
+    width: 20px;
+    margin: 0;
+}

@@ -58,7 +58,7 @@ class App extends Component {
                   <a className="nav-link" href="/">
                   <FontAwesomeIcon
                     icon="search"
-                    size="lg"
+                    size="2x"
                   />
                   </a>
                 </li>
@@ -66,7 +66,7 @@ class App extends Component {
                   <a className="nav-link" href="/">
                     <FontAwesomeIcon
                       icon="question-circle"
-                      size="lg"
+                      size="2x"
                     />
                   </a>
                 </li>
@@ -74,9 +74,12 @@ class App extends Component {
                   <a className="nav-link" href="/">
                     <FontAwesomeIcon
                       icon="bell"
-                      size="lg"
+                      size="2x"
                       color="#000"
                     />
+                    <div className="notificaciones">
+                      2
+                    </div>
                   </a>
                 </li>
                 <li className="nav-item">
